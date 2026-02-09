@@ -9,7 +9,7 @@ A comprehensive Streamlit-based application for dubbing and translating videos i
 | Sample WAV | English News Transcript | Russian, Hindi, German |
 
 ### 🔊 Reference Audio
-<audio src="public/sample.wav" controls></audio>
+▶️ [Play Russian Audio](public/russian.wav)
 
 ---
 
@@ -152,6 +152,7 @@ Key settings in `streamlit.py`:
 ## Support
 
 For issues or questions, please contact [your contact information]
+
 
 
 
