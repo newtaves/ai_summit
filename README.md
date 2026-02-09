@@ -21,42 +21,28 @@ A comprehensive Streamlit-based application for dubbing and translating videos i
 ## Project Structure
 
 ```
-ai_summit/
-├── streamlit.py                                    # Main Streamlit application
-├── tools/
-│   ├── youtube_script_tool.py                     # YouTube subtitle extraction
-│   ├── translator.py                              # Subtitle translation module
-│   └── gen-lang-client-0312115025-4347c6538f2e.json # Google Cloud credentials
+ai_summit/   
+├── frontend/
+│   └── streamlit.py                  
+├── backend/                                
+│   └── backend.ipynb
 └── README.md
 ```
 
 ## Components
 
 ### 1. streamlit.py
-The main web application that:
-- Provides a user interface for video dubbing
-- Handles video URL input
+
+The frontend of web application that:
+- Provides a user interface for audio dubbing
 - Manages language selection
 - Displays original and dubbed content
 - Configures page settings and language mappings
-
-### 2. youtube_script_tool.py
-Utility functions for YouTube integration:
-- `extract_video_id(url)`: Extracts YouTube video ID from various URL formats
-- `get_subtitles(url)`: Fetches subtitles from YouTube videos with timing information
-
-### 3. translator.py
-Translation module that:
-- Uses Google Cloud Translation API v2
-- Translates subtitles while preserving timing data
-- Maintains the original subtitle structure with added translated text
 
 ## Prerequisites
 
 - Python 3.7+
 - Streamlit
-- Google Cloud Translation API credentials
-- YouTube Transcript API
 - Deep Translator library
 - SciPy (for audio processing)
 
@@ -136,3 +122,4 @@ Key settings in `streamlit.py`:
 ## Support
 
 For issues or questions, please contact [your contact information]
+
