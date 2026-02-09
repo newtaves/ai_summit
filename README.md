@@ -29,6 +29,7 @@ Now let's talk about India's oldestairline. It was once a symbol ofnational prid
 
 **German**
 ▶️ [Play German Audio](public/german.wav)
+
 ---
 
 ## Features
@@ -151,6 +152,7 @@ Key settings in `streamlit.py`:
 ## Support
 
 For issues or questions, please contact [your contact information]
+
 
 
 
